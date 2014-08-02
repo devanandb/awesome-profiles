@@ -1,9 +1,9 @@
-angular.module('awesomeProfiles', ['ui.bootstrap','ui.utils','ui.router','ngAnimate']);
+angular.module('awesomeProfiles', ['ui.bootstrap', 'ui.utils', 'ui.router', 'ngAnimate', 'pages']);
 
 angular.module('awesomeProfiles').config(function($stateProvider, $urlRouterProvider) {
 
     /* Add New States Above */
-    $urlRouterProvider.otherwise('/home');
+    $urlRouterProvider.otherwise('/');
 
 });
 
